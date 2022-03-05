@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* SESSÃO 1 - MENU */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2941AB;
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    background-color: black;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+    margin-left: 150px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 720px;
+    color: white;
+}
+
+nav ul li {
+    margin-right: 25px;
+    justify-content: space-between;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #1ED760;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: #1ED760;
+}
+/* SESSÃO 2 - PRINCIPAL */
+
+.section-1 {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal h2 {
+    text-align: center;
+    font-size: 148px;
+    margin-top: -95px;
+    color: #1ED760;
+}
+
+.principal h3 {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 40px;
+    color: #1ED760;
+}
+
+.principal button {
+    margin-top: 70px;
+    width: 200px;
+    margin-left: 350px;
+    height: 48px;
+    border-radius: 30px;
+    color: #2941AB;
+    background-color: #1ED760;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* SESSÃO 3 - RODAPÉ */
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 500px;
+}
+
+.parte-1 {
+    width: 20%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.parte-1 img {
+    height: 42px;
+    width: auto;
+    margin-top: 80px;
+}
+
+.parte-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    background-color: black;
+}
+
+.parte-2 h5 {
+    margin-top: 90px;
+    margin-left: -42px;
+    margin-bottom: 17px;
+    color: rgba(231, 225, 225, 0.527);
+    font-weight: bold;
+}
+
+.parte-2 p {
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.parte-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    background-color: black
+}
+
+.parte-3 h5 {
+    margin-top: 90px;
+    margin-left: -27px;
+    margin-bottom: 17px;
+    color: rgba(231, 225, 225, 0.527);
+    font-weight: bold;
+}
+
+.parte-3 p {
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.parte-4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    background-color: black
+}
+
+.parte-4 h5 {
+    margin-top: 90px;
+    margin-left: -84px;
+    margin-bottom: 17px;
+    color: rgba(231, 225, 225, 0.527);
+    font-weight: bold;
+}
+
+.parte-4 p {
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    background-color: black
+}
+
+.social img {
+    width: 50px;
+    height: 50px;
+    margin-top: 90px;
+    margin-right: 20px;
+}
+
+.rodape {
+    display: flex;
+    height: 50px;
+    background-color: black;
+}
+
+.rodape ul {
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    color: rgba(231, 225, 225, 0.527);
+    background-color: black;
+    margin-left: 80px;
+}
+
+.rodape ul li {
+    padding-left: 20px;
+}
+
+.rodape p {
+    font-size: 12px;
+    margin-left: 800px;
+    color: rgba(231, 225, 225, 0.527);
+    background-color: black;
+}
+
+.desenvolvido {
+    background-color: #2941AB;
+    height: 30px;
+}
+
+.desenvolvido p {
+    text-align: center;
+    color: white;
+}
+

@@ -1,0 +1,109 @@
+
+
+nav {
+    height: 60px;
+    width: 315px;
+}
+
+nav ul {
+    display: none;
+}
+
+nav img {
+    position: relative;
+    right: 40px;
+    height: 28px;
+    width: auto;
+}
+
+.principal h2 {
+    font-size: 40px;
+    position: relative;
+    top: 55px;
+    right: 30px;
+}
+
+.principal h3 {
+    font-size: 13px;
+
+}
+
+.mobile {
+    width: 250px;
+    position: relative;
+    left: 120px;
+    top: 40px;
+}
+
+.principal button {
+    position: relative;
+    right: 200px;
+}
+
+.section-1 {
+    height: 625px
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 314px;
+}
+
+.parte-1 img {
+    position: relative;
+    height: 30px;
+    width: auto;
+    left: 30px;
+    bottom: 50px;
+} 
+
+.parte-2 {
+    position: relative;
+    left: 38px;
+    bottom: 50px;
+}
+
+.parte-2 p {
+    margin-right: 30px;
+}
+
+.parte-3 {
+    position: relative;
+    bottom: 55px;
+    left: 45px;
+}
+
+.parte-3 p {
+    margin-left: 7px;
+}
+
+.parte-4 {
+    position: relative;
+    bottom: 55px;
+    left: 70px;
+}
+
+.parte-4 p {
+    margin-right: 85px;
+}
+
+.social {
+    position: relative;
+    bottom: 65px;
+    width: 190px;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+}
+
+.rodape {
+    display: none;
+}
+
+.desenvolvido {
+    width: 314px;
+}
